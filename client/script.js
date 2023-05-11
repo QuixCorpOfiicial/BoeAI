@@ -75,7 +75,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   try {
-    const response = await fetch('http://localhost:8000', {
+    const response = await fetch('https://boeai.onrender.com', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
