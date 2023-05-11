@@ -10,7 +10,7 @@ function loader(element) {
 
   loadInterval = setInterval(() => {
     // Update the text content of the loading indicator
-    element.textContent += '.';
+    element.textContent += '';
 
     if (element.textContent === '...') {
       element.textContent = '';
